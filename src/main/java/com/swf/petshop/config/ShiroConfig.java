@@ -99,6 +99,8 @@ public class ShiroConfig {
             如：
                 filterMap.put("/user/add","perms[user:add]");
         */
+        //注入拦截器
+        shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);
         //设置登录的请求
         shiroFilterFactoryBean.setLoginUrl("/login");
         //设置无权访问的请求
