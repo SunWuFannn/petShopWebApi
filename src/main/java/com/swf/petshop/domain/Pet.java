@@ -7,6 +7,8 @@ import java.util.List;
  * 宠物商品实体类
  */
 public class Pet implements Serializable {
+    
+    private static final long serialVersionUID = 1L;
 
     private int rid;//线路id，必输
     private String rname;//宠物名称，必输
