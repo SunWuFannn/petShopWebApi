@@ -6,6 +6,9 @@ import java.io.Serializable;
  * 宠物图片实体类
  */
 public class PetImg implements Serializable {
+    
+    private static final long serialVersionUID = 1L;
+    
     private int rgid;//宠物图片id
     private int rid;//宠物商品id
     private String bigPic;//详情宠物大图
