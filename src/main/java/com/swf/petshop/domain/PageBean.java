@@ -5,7 +5,9 @@ import java.util.List;
 /**
  * 分页对象
  */
-public class PageBean<T> {
+public class PageBean<T> implements Serializable {
+    
+    private static final long serialVersionUID = 1L;
 
     private int totalCount;//总记录数
     private int totalPage;//总页数
