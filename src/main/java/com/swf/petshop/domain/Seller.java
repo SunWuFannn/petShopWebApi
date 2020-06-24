@@ -6,6 +6,9 @@ import java.io.Serializable;
  * 商家实体类
  */
 public class Seller implements Serializable {
+    
+    private static final long serialVersionUID = 1L;
+    
     private int sid;//商家id
     private String sname;//商家名称
     private String consphone;//商家电话
