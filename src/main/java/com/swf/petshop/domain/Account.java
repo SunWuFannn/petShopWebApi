@@ -6,6 +6,8 @@ import java.io.Serializable;
  * 账户类
  */
 public class Account implements Serializable {
+    
+    private static final long serialVersionUID = 1L;
 
     private int uid;
     private Double money;
