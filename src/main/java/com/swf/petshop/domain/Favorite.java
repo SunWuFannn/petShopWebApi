@@ -6,6 +6,9 @@ import java.io.Serializable;
  * 收藏实体类
  */
 public class Favorite implements Serializable {
+    
+    private static final long serialVersionUID = 1L;
+    
     private Pet pet;//宠物对象
     private String date;//收藏时间
     private User user;//所属用户
