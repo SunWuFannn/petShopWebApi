@@ -6,6 +6,9 @@ import java.io.Serializable;
  * 用户实体类
  */
 public class User implements Serializable {
+    
+    private static final long serialVersionUID = 1L;
+    
     private int uid;//用户id
     private String username;    //用户名，账号
     private String password;    //密码
